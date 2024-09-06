@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machi Koro 2 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-title-container">
+            <h1>Machi Koro 2</h1>
+        </div>
+        <div class="header-button-container">
+            <button id="playGame" class="play-game">Play Game</button> <!-- Play Game Button -->
+            <button id="rollDiceButton" class="roll-dice">Roll Dice</button>
+            <button id="rollOneDiceButton" class="roll-dice">Roll 1 Dice</button>
+            <button id="rollTwoDiceButton" class="roll-dice">Roll 2 Dice</button>
+            <button id="skipTurnButton" class="skip-turn">Skip Turn</button>
+        </div>
+        <div class="turn-indicator" id="turnIndicator">Player 1's Turn</div>
+        <div class="coins-indicator" id="coinsIndicator"></div>
+    </header>
+    <main>
+        <div class="player-container" id="player2-container">
+            <div class="hand-container">
+                <h2>Player 2's Hand</h2>
+                <div class="hand" id="hand2"></div>
+            </div>
+        </div>
+        <div class="market-container">
+            <div class="market" id="market1"></div>
+            <div class="market" id="market2"></div>
+            <div class="market" id="market3"></div>
+        </div>
+        <div class="player-container" id="player1-container">
+            <div class="hand-container">
+                <h2>Player 1's Hand</h2>
+                <div class="hand" id="hand1"></div>
+            </div>
+        </div>
+    </main>
+    <script src="FSM_noState.js"></script>
+
+
+
+</body>
+</html>
